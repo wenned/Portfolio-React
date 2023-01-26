@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .w{
     position: relative;
     bottom: 15%;
@@ -17,6 +18,7 @@
     transform: translateX(-70rem);
     animation-fill-mode: forwards;
 }
+
 .s{
     position: relative;
     right: 2.5rem;
@@ -29,6 +31,7 @@
     animation-fill-mode: forwards;
 
 }
+
 .linha{
     position: absolute;
     background: #eee;
@@ -57,6 +60,7 @@
     animation-name: sliderLinha;
     animation-duration: 1.5s;
 }
+
 .nome{
     position: absolute;
     font-size: 2rem;
@@ -64,24 +68,21 @@
     left: 2rem;
 
     animation-name: sliderNome;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
-
 
 @keyframes sliderW{
-    from {
-    }
     to{
         transform: translateX(0);
     }
 }
+
 @keyframes sliderS{
-    from {
-    }
     to{
         transform: translateX(0);
     }
 }
+
 @keyframes sliderWhite{
     from {
         opacity: 0;
@@ -90,6 +91,7 @@
         opacity: 1;
     }
 }
+
 @keyframes sliderLinha{
     from {
         top: -50%;
