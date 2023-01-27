@@ -1,10 +1,76 @@
 .conteiner{
-    /* background-color: #d6e0e2; */
-}
-.item{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem;
 }
 
+.l1{
+    background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
+    width: 40%;
+    height: 40%;
+    cursor: pointer;
+}
+
+.l2{
+    width: 40%;
+    height: 40%;
+    cursor: pointer;
+
+}
+
+.l3{
+    width: 40%;
+    height: 40%;
+    cursor: pointer;
+
+}
+
+.l4{
+    background-image: linear-gradient(180deg,  #d6e0e2, #ffc70e);
+    width: 40%;
+    height: 40%;
+    cursor: pointer;
+}
+
+.m1{
+    position: absolute;
+    width: 50%;
+}
+
+.l1:hover{
+    position: absolute;
+    animation-name: slide;
+    animation-fill-mode: forwards;
+}
+
+.l2:hover{
+    position: absolute;
+    animation-name: slide;
+    animation-fill-mode: forwards;
+}
+.l3:hover{
+    position: absolute;
+    animation-name: slide;
+    animation-fill-mode: forwards;
+}
+.l4:hover{
+    position: absolute;
+    animation-name: slide;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide{
+    from{
+        width: 0%;
+        height: 0%;
+    }
+    to{
+        position: absolute;
+        width: 70%;
+        height: 70%; 
+    }
+}
