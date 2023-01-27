@@ -1,6 +1,5 @@
 import style from '../styles/NavBar.module.css'
 import { Link } from "react-scroll";
-import Logo from './logo/Logo';
 
 
 function NavBar(props){
@@ -96,7 +95,7 @@ function NavBar(props){
 
     return (
         <nav className={style.ettabs}>
-            <Logo/>
+            <h1>WENNED SILVA</h1>
             <div className={style.container} id="NavBar">
                     <Link className={style.ethero} id="Inicio" to="Home" spy={true} smooth={true} offset={-70} duration={500}>Inicio</Link>
                     <Link className={style.ethero} id="t1" to="Sobre" spy={true} smooth={true} offset={-70} duration={500}>Sobre</Link>
