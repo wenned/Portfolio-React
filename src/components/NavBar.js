@@ -46,6 +46,7 @@ function NavBar(props){
         var cord1 = elem1.getBoundingClientRect();
         var cord2 = elem2.getBoundingClientRect();
         var cord3 = elem3.getBoundingClientRect();
+        console.log(elem0)
 
         if (cord0['bottom'] > 736){
 
