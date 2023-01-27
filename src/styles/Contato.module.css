@@ -1,0 +1,64 @@
+.conteiner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    background-image: linear-gradient(180deg, black, gray);
+}
+
+.social{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    width: 25%;
+    justify-content: space-between;
+    color: #ffffff;
+    bottom: 7rem;
+
+}
+.l:hover{
+    color: #ebb60b;
+}
+
+.linha{
+    position: absolute;
+    background-color: #ebb60b;
+    width: 40%;
+    height: 0.3rem;
+    border-radius: 2rem;
+    top: 15rem;
+}
+
+.titulos{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ebb60b;
+}
+
+.pro{
+    position: absolute;
+    left: 50%;
+    top: 3rem;
+}
+
+.desen{
+    position: absolute;
+    left: 20%;
+    padding-top: 2rem;
+
+}
+
+.conteiner ol{
+    color: #ffc70e;
+    text-decoration: none;
+    padding: 1rem;
+    list-style-type: none;
+    font-weight: bold;    
+}
+.conteiner ol li{
+    padding-top: 1rem;
+}

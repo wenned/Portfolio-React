@@ -10,18 +10,26 @@ function Contato(){
                 <span className={style.l}><FaGithub/></span>
                 <span className={style.l}><FaTwitter/></span>
             </div>
-            <div className={style.habil}>
+            <div className={style.pro}>
                 <span className={style.titulos} >Programação</span>
-                <span>JavaScript</span>
-                <span>Java</span>
-                <span>Python</span>
-                <div className={style.linha}></div>
+                <ol>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ol>
+            </div>
+
+            <div className={style.linha}></div>
+
+            <div className={style.desen}>
                 <span className={style.titulos} >Desenvolvimento</span>
-                <span>Node.JS</span>
-                <span>Next.JS</span>
-                <span>React</span>
-                <span>Html</span>
-                <span>Css</span>
+                <ol>
+                    <li>Node.JS</li>
+                    <li>Next.JS</li>
+                    <li>React</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ol>
             </div>
         </div>
     )
