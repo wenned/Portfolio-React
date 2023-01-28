@@ -45,3 +45,31 @@
     height: 100%;
     left: 20%;
 }
+
+
+@media (max-width: 480px) {
+    
+    .conteiner div img{
+        width: 23rem;
+        top: 3rem;
+    }
+    .l2, .v2{
+        display: none;
+    }
+    .conteiner{flex-wrap: wrap;
+    height: 110vh;}
+    
+    .conteiner div:nth-child(2){
+        position: relative;
+        margin-top: 0;
+        top: 1rem;
+        padding: 1rem;
+    }
+
+    .conteiner div:nth-child(3){
+        position: relative;
+        left: 1rem;
+        padding: 0.5rem;
+        bottom: 1rem;
+    }
+}
