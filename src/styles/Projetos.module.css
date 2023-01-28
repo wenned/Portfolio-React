@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-left: 2rem;
+    overflow: hidden;
 }
 
 .l1{
