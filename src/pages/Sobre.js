@@ -1,6 +1,5 @@
 import style from '../styles/Sobre.module.css'
 import Capa from '../imagens/capa.png'
-import Fone from '../imagens/fone.png'
 
 
 function Sobre(){
@@ -26,7 +25,6 @@ function Sobre(){
                 <p><strong>Idioma :</strong> Portugues, Ingles - <small>Cursando</small></p>
 
             </div>
-            <div className={style.imGG}><img  className={style.fone} src={Fone} alt="fone"/></div>
             <div className={style.l2}></div>
             <div className={style.v2}></div>
 

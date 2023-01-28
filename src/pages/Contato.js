@@ -31,6 +31,10 @@ function Contato(){
                     <li>Css</li>
                 </ol>
             </div>
+
+            <div className={style.l2}></div>
+            <div className={style.v2}></div>
+            
         </div>
     )
 }

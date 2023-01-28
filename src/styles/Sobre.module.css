@@ -20,22 +20,15 @@
     position: relative;
     width: 27rem;
     border-radius: 0.5rem;
-    top: 5rem;
+    top: 10rem;
     left: 2rem;
     z-index: 1;
 }
 
 .conteiner div:nth-child(3){
     position: absolute;
-    right: 3rem;
+    right: 10rem;
     bottom: 5rem;
-}
-
-.imGG{
-    position: absolute;
-    border-radius:1rem;
-    top: 15rem;
-    left: 35%;
 }
 
 .l2{
@@ -49,7 +42,6 @@
     position: absolute;
     background-color: #ffc70e;
     width: 1rem;
-    height: 88%;
+    height: 100%;
     left: 20%;
-    top: 5rem;
 }

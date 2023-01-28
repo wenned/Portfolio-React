@@ -4,8 +4,8 @@
     align-items: center;
     height: 90vh;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 5rem;
+    justify-content: space-evenly;
+    padding-left: 2rem;
 }
 
 .l1{
@@ -19,8 +19,8 @@
     width: 40%;
     height: 40%;
     cursor: pointer;
-
 }
+
 .l2 div{
     width: 100%;
     height: 10px;
@@ -31,7 +31,6 @@
     width: 40%;
     height: 40%;
     cursor: pointer;
-
 }
 
 .l3 div{
@@ -45,38 +44,4 @@
     width: 40%;
     height: 40%;
     cursor: pointer;
-}
-
-.l1:hover{
-    position: absolute;
-    animation-name: slide;
-    animation-fill-mode: forwards;
-}
-
-.l2:hover{
-    position: absolute;
-    animation-name: slide;
-    animation-fill-mode: forwards;
-}
-.l3:hover{
-    position: absolute;
-    animation-name: slide;
-    animation-fill-mode: forwards;
-}
-.l4:hover{
-    position: absolute;
-    animation-name: slide;
-    animation-fill-mode: forwards;
-}
-
-@keyframes slide{
-    from{
-        width: 0%;
-        height: 0%;
-    }
-    to{
-        position: absolute;
-        width: 70%;
-        height: 70%; 
-    }
 }

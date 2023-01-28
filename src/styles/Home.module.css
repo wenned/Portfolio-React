@@ -19,11 +19,57 @@
     /* top: 0; */
 }
 
-.iten{
+.conteiner h1{
+    position: relative;
+    left: 55%;
+    top: 9rem;
+}
+
+.imGG{
+    position: absolute;
+    border-radius:1rem;
+    top: 15rem;
+    right: 35%;
+}
+
+.conteiner div img{
+    position: relative;
+    width: 30rem;
+    border-radius: 0.5rem;
+    right: 18rem;
+    z-index: 1;
+}
+
+.l2{
+    position: absolute;
+    background-color: #ffc70e;
+    top: 12rem;
+    width: 100%;
+    height: 1rem;
+}
+
+.v2{
+    position: absolute;
+    background-color: #ffc70e;
+    width: 1rem;
+    height: 100%;
+    left: 40%;
+}
+
+.l3{
     display: flex;
     position: relative;
-    align-items: center;
-    justify-content: center;
-    bottom: 20%;
-    font-family: 'Lato', sans-serif;
+    background-color: #ffc70e;
+    top: 13rem;
+    float: right;
+    width: 40%;
+    height: 0.5rem;
+}
+
+.v3{
+    position: absolute;
+    background-color: #ffc70e;
+    width: 1rem;
+    height: 14%;
+    left: 60%;
 }

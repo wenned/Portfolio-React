@@ -1,0 +1,9 @@
+.conteiner{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+    font-size: 4rem;
+    justify-content: space-between;
+    width: 40%;
+}
