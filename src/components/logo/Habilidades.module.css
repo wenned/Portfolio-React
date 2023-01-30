@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .pon{
     position: absolute;
     z-index: 1;
@@ -37,14 +38,18 @@
 @media (max-width: 480px) {
 
     .conteiner{
-        top: 62%;
-        width: 70%;
+        top: 57%;
+        width: 100%;
         flex-wrap: wrap;
+        left: 1px;
     }
 
-    .conteiner :nth-child(1n-1){
-        margin-bottom: 0.5rem;
-        padding: 0.5rem;
-    }
+    .contnei{padding-top: 10px;}
+
+    .h{
+        left: 1px;
+        font-size: 25px;
+        top: 11rem;}
+
     
 }

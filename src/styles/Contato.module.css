@@ -21,8 +21,10 @@
     bottom: 7rem;
 
 }
+
 .l:hover{
     color: #ebb60b;
+    cursor: pointer;
 }
 
 .linha{
