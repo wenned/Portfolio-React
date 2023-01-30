@@ -35,7 +35,7 @@ function Projetos(){
 
 
     return (
-    
+    <>
         <div className={style.conteiner} id="Projetos">
 
             <div id="Elemento1" className={style.l1}></div>
@@ -45,6 +45,7 @@ function Projetos(){
             <div id="Elemento4" className={style.l4}></div>
 
         </div>
+        </>
         )
 }
 
