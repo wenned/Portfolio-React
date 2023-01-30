@@ -48,14 +48,41 @@ function Habilidades(){
 
     return (
         <div className={style.conteiner}>
-            <FaJs id='FJs'/>
-            <FaJava id='FaJava'/>
-            <FaPython id='FaPython'/>
+            
+            <div className={style.contnei}>
+                <FaJs/>
+                <span id='FJs' className={style.pon}></span>
+            </div>
 
-            <FaNodeJs id='FaNodeJs'/>
-            <FaReact id='FaReact'/>
-            <FaHtml5 id='FaHtml5'/>
-            <FaCss3 id='FaCss3'/>
+            <div className={style.contnei}>
+                <FaJava />
+                <span id='FaJava' className={style.pon}></span>
+            </div>
+
+            <div className={style.contnei}>
+                <FaPython/>
+                <span id='FaPython' className={style.pon}></span>
+            </div>
+
+            <div className={style.contnei}>
+                <FaNodeJs/>
+                <span id='FaNodeJs' className={style.pon}></span>
+            </div>
+
+            <div className={style.contnei}>
+                <FaReact/>
+                <span id='FaReact' className={style.pon}></span>
+            </div>
+
+            <div className={style.contnei}>
+                <FaHtml5/>
+                <span id='FaHtml5' className={style.pon}></span>
+            </div>
+
+            <div className={style.contnei}>
+                <FaCss3/>
+                <span id='FaCss3' className={style.pon}></span>
+            </div>
 
         <div id='HbDv' className={style.h}></div>
         </div>
