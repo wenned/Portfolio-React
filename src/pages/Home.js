@@ -10,11 +10,11 @@ function Home(){
 
         <h1>Habilidades</h1>
 
-        <div className={style.imGG}><img  className={style.fone} src={Fone} alt="fone"/></div>
+        <div id="troca2" className={style.imGG}><img  className={style.fone} src={Fone} alt="fone"/></div>
 
         <div className={style.l2}></div>
         <div className={style.v2}></div>
-        <div className={style.v3}></div>
+        <div id="troca3" className={style.v3}></div>
         <div className={style.l3}></div> 
 
         <Habilidades/> 
