@@ -64,13 +64,6 @@
     z-index: 1;
 }
 
-.active{
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    z-index: 2;
-}
-
 .l2 span{
     position: absolute;
     transform: rotate(90deg);
@@ -114,4 +107,20 @@
         left: -8.7rem;
     }
 
+}
+
+.active{
+    position: absolute;
+    height: 90%;
+    z-index: 2;
+
+    animation-name: Slider;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes Slider{
+    from{ width: 0;}
+    to{width: 90%;}
 }
