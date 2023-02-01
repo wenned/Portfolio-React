@@ -1,48 +1,9 @@
 .conteiner{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 90vh;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 2rem;
     overflow: hidden;
-}
-
-.l1{
-    background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
-    width: 40%;
-    height: 40%;
-    cursor: pointer;
-}
-
-.l2{
-    width: 40%;
-    height: 40%;
-    cursor: pointer;
-}
-
-.l2 div{
-    width: 100%;
-    height: 10px;
-    background-color: #ffc70e;
-}
-
-.l3{
-    width: 40%;
-    height: 40%;
-    cursor: pointer;
-}
-
-.l3 div{
-    width: 100%;
-    height: 10px;
-    background-color: #ffc70e;
-}
-
-.l4{
-    background-image: linear-gradient(180deg,  #d6e0e2, #ffc70e);
-    width: 40%;
-    height: 40%;
-    cursor: pointer;
 }

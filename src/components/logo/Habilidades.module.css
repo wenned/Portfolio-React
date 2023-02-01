@@ -25,14 +25,33 @@
 
 .h{
     position: absolute;
-    top: 6rem;
-    left: 2rem;
+    top: 13rem;
+    left: 5rem;
     font-size: 3rem;
 }
+.h div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.h span{
+.h span:nth-child(1){
+    position: absolute;
+    font-size: 9rem;
+    font-family: 'Secular One', sans-serif;
+    right: 3rem;
+    right: 100%;
+    bottom: -3.5rem;
+}
+
+.h span:nth-child(3){
+    position: absolute;
     font-size: 5rem;
     font-family: 'Secular One', sans-serif;
+    font-size: 9rem;
+    left: 100%;
+    top: 1rem;
+
 }
 
 @media (max-width: 480px) {
@@ -47,9 +66,13 @@
     .contnei{padding-top: 10px;}
 
     .h{
-        left: 1px;
-        font-size: 25px;
-        top: 11rem;}
+        left: 4rem;
+        font-size: 23px;
+        top: 13rem;
+    }
 
-    
+    .h span:nth-child(1){font-size: 5rem;}
+
+    .h span:nth-child(3){font-size: 5rem;}
+
 }

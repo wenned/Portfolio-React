@@ -1,43 +1,42 @@
 import {FaJava, FaNodeJs, FaReact, FaPython, FaJs, FaHtml5, FaCss3} from 'react-icons/fa'
+import { useState } from 'react'
 
 import style from '../components/logo/Habilidades.module.css'
  
 function Habilidades(){
 
+    const [Valor, setValor] = useState('Cascading Style Sheets')
 
     document.addEventListener('click', (e) =>{
         
-        var elem = document.getElementById('HbDv')
-
         switch(e.target.id){
 
             case 'FJs':
-                elem.innerHTML = `<p><span>"</span>JavaScript<span>"</span></p>`
+                setValor('JavaScript')
                 break
 
             case 'FaJava':
-                elem.innerHTML = `<p><span>"</span>Java<span>"</span></p>`
+                setValor('Java')
                 break
 
             case 'FaPython':
-                elem.innerHTML = `<p><span>"</span>Python<span>"</span></p>`
+                setValor('Python')
                 break
 
             case 'FaNodeJs':
-                elem.innerHTML = `<p><span>"</span>Node.js<span>"</span></p>`
+                setValor('Node.Js')
                 break
 
             case 'FaReact':
-                elem.innerHTML = `<p><span>"</span>React<span>"</span></p>`
+                setValor('React')
                 break
 
             case 'FaHtml5':
-                elem.innerHTML = `<p><span>"</span>Hypertext Markup Language<span>"</span></p>`
+                setValor('Hypertext Markup Language')
                 break
 
             case 'FaCss3':
-                elem.innerHTML = `                
-                <p><span>"</span>Cascading Style Sheets<span>"</span></p>`
+                setValor('Cascading Style Sheets')
                 break 
 
             default:
@@ -83,8 +82,15 @@ function Habilidades(){
                 <FaCss3/>
                 <span id='FaCss3' className={style.pon}></span>
             </div>
+        
+            <section id='HbDv' className={style.h}>
+                <div>
+                    <span>"</span>
+                    <span>{Valor}</span>
+                    <span>"</span>
+                </div>
+            </section>
 
-        <div id='HbDv' className={style.h}></div>
         </div>
     
     )
