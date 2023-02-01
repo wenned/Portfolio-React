@@ -11,17 +11,15 @@ function Projetos(){
     const [layout3, setLayout3] = useState('')
     const [layout4, setLayout4] = useState('')
 
-
   document.addEventListener('click', (e)=>{
-
-
 
     switch (e.target.id){
 
         case 'Elemento1':
+            
             console.log(e.target.id)
             if(layout1 === ''){
-                setLayout1('active')
+                setLayout1('active');
             }else(setLayout1(''))
             
             break
@@ -56,7 +54,6 @@ function Projetos(){
     }
 
 })
-
 
     return (
         <>

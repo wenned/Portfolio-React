@@ -1,0 +1,20 @@
+.Container{
+    position:absolute;
+    right: 15rem;
+    top: 14rem;
+    width: 500px;
+}
+
+.Container h1{font-size: 3rem;}
+
+.Container div{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.Container div svg{
+    font-size: 3rem;
+}
