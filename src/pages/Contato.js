@@ -31,6 +31,7 @@ function Contato(){
                 <span className={style.titulos} >Programação</span>
                 <ol>
                     <li>JavaScript</li>
+                    <li>Node.JS</li>
                     <li>Java</li>
                     <li>Python</li>
                 </ol>
@@ -41,7 +42,7 @@ function Contato(){
             <div className={style.desen}>
                 <span className={style.titulos} >Desenvolvimento</span>
                 <ol>
-                    <li>Node.JS</li>
+
                     <li>Next.JS</li>
                     <li>React</li>
                     <li>Html</li>

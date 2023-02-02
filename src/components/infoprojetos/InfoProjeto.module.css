@@ -18,3 +18,30 @@
 .Container div svg{
     font-size: 3rem;
 }
+
+.Container div:nth-child(4){
+    text-align: justify;
+}
+
+@media (max-width: 480px) {
+
+    .Container{
+        top: 26rem;
+        left: 5px;
+        width: 360px;
+    }
+
+    .Container div:nth-child(4){
+        font-size: 12px;
+    }
+
+    .Container div:nth-child(5){
+        z-index: 2;
+    }
+    
+    .Container h1{
+        font-size: 2rem;}
+
+    .Container div svg{
+        font-size: 1.5rem;}
+}

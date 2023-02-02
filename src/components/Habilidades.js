@@ -5,7 +5,7 @@ import style from '../components/logo/Habilidades.module.css'
  
 function Habilidades(){
 
-    const [Valor, setValor] = useState('Cascading Style Sheets')
+    const [Valor, setValor] = useState('Click nas habilidades acima!')
 
     document.addEventListener('click', (e) =>{
         

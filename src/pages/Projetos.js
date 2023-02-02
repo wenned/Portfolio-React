@@ -17,7 +17,6 @@ function Projetos(){
 
         case 'Elemento1':
             
-            console.log(e.target.id)
             if(layout1 === ''){
                 setLayout1('active');
             }else(setLayout1(''))

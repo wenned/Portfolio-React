@@ -88,6 +88,12 @@
 
 @media (max-width: 480px) {
 
+    .l1 span{
+        width: 100%;
+        height: 60%;
+        background-size: 270px;
+    }
+
     .l2 span{
         font-size: 3rem;
         left: -8.7rem;
