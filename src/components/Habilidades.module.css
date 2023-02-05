@@ -1,0 +1,66 @@
+.conteiner{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.conteiner h1{
+    position: relative;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.conteiner :nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contnei{
+    display: flex;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.contnei svg{font-size: 4rem;}
+
+.h{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+.pon{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.d{
+    position: relative;
+    height: 50px;
+}
+
+.h span:nth-child(2){
+    position: relative;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    
+    .conteiner{width: 400px;}   
+
+    .contnei svg {font-size: 2rem;}
+ 
+    .contnei {padding-left: 0;}
+    
+    .h span:nth-child(2){font-size: 2rem;}
+
+    .conteiner h1{left: 15px;}
+
+}

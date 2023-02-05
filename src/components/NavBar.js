@@ -36,7 +36,7 @@ function NavBar(props){
 
         var elem0 = document.getElementById('Inicio');
         var elem1 = document.getElementById('troca2');
-        var elem2 = document.getElementById('troca3');
+        var elem2 = document.getElementById('Elemento3');
         var elem3 = document.getElementById('Contat');
 
         var trocaElement1 = document.getElementById('t1')
@@ -47,14 +47,12 @@ function NavBar(props){
         var cord2 = elem2.getBoundingClientRect();
         var cord3 = elem3.getBoundingClientRect();
 
-
         if (cord0['bottom'] > 736){
 
             elem0.style.borderBottom = '5px solid #ffc70e'
         };        
 
-        if (cord1['bottom'] < 65){
-            // console.log(`aqui, ${cord1['bottom']}`)
+        if (cord1['bottom'] < -150){
 
             var trocar = document.getElementById('t1');
             trocar.style.borderBottom = '5px solid #ffc70e';
@@ -68,7 +66,7 @@ function NavBar(props){
 
         };
 
-        if (cord2['bottom'] < -1166){
+        if (cord2['bottom'] < 1100){
             // console.log(`aqui, ${cord2['bottom']}`)
 
             var troca = document.getElementById('t2');
@@ -82,7 +80,6 @@ function NavBar(props){
         };
 
         if (cord3['bottom'] < 1200){
-            // console.log(`aqui, ${cord3['bottom']}`)
 
             var troc2 = document.getElementById('Contac');
             troc2.style.borderBottom = '5px solid #ffc70e';
