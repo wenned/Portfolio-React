@@ -67,7 +67,6 @@ function NavBar(props){
         };
 
         if (cord2['bottom'] < 1100){
-            // console.log(`aqui, ${cord2['bottom']}`)
 
             var troca = document.getElementById('t2');
             troca.style.borderBottom = '5px solid #ffc70e';
@@ -95,9 +94,13 @@ function NavBar(props){
     });
 
     return (
+
         <nav className={style.ettabs}>
+
             <Logo/>
+
             <div className={style.container} id="NavBar">
+
                     <Link className={style.ethero} id="Inicio" to="Home" spy={true} smooth={true} offset={-70} duration={500}>Inicio</Link>
                     <Link className={style.ethero} id="t1"  to="Sobre" spy={true} smooth={true} offset={-70} duration={500}>Sobre</Link>
                     <Link className={style.ethero} id="t2" to="Projetos" spy={true} smooth={true} offset={-70} duration={500}>Projetos</Link>

@@ -11,7 +11,7 @@ function Sobre(){
                 <div>
                     <p><strong>Nome: </strong>Wenned Silva</p>
                         <p>Sou uma pessoa dinâmica, aberto a novas experiências, sempre tentando ser pontual e cumprir compromissos, nascido em, <strong>Cândido Mendes, MA</strong>, mudei-me para <strong>Imperatriz, MA</strong> aos 16 anos, sempre com objetivo de me especializar na area da tecnologia, mesmo naquela época não sabendo para qual área realmente focar, sempre me adaptei facilmente em varias áreas, mas a paixão por programação principalmente por, <strong>Programação Back-end</strong></p>
-                        <p><strong>Hobbies:</strong> Estudar programação, <strong>"JavaScript", "Python", "JAVA", "POSTGRESQL"</strong>. Desemvolvimento Web: <strong>"NODE.JS", "REACT", "NEXT.JS", "HTML", "CSS"</strong>.Escutar musica, Dançar, Cozinha, Natação, Patinar.</p>
+                        <p><strong>Hobbies:</strong> Estudar programação, <strong>"JavaScript", "Python", "JAVA", "POSTGRESQL"</strong>. Desemvolvimento Web: <strong>"NODE.JS", "REACT", "NEXT.JS", "HTML", "CSS"</strong>.</p>
                 </div>
 
                 <div >
