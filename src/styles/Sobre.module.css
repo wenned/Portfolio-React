@@ -42,6 +42,18 @@
     bottom: 10%;
 }
 
+@media (max-width: 1280px){
+
+    .conteiner{
+        height: 128vh;
+    }
+
+    .imG{
+        right: 28%;
+        top: 20%;
+    }
+}
+
 @media (max-width: 768px){
 
     .conteiner{

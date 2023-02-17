@@ -51,6 +51,13 @@
     align-items: center;
 }
 
+@media (max-width: 1280px){
+
+    .conteiner h1 {
+        left: 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     
     .conteiner{width: 400px;}   

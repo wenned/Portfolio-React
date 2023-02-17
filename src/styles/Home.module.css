@@ -15,6 +15,12 @@
 }
 .imGG img {border-radius: 10px;}
 
+@media (max-width: 1280px){
+
+    .imGG{right: 0;}
+    
+}
+
 @media (max-width: 768px){
 
     .imGG{right: 0;}
