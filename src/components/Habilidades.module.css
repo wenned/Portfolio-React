@@ -13,7 +13,7 @@
 
 .conteiner :nth-child(2){
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly   ;
 }
 
 
@@ -55,12 +55,19 @@
     
     .conteiner{width: 400px;}   
 
-    .contnei svg {font-size: 2rem;}
+    .contnei svg {font-size: 1.8rem;}
  
-    .contnei {padding-left: 0;}
+    .contnei {padding-left: 1px;}
     
     .h span:nth-child(2){font-size: 2rem;}
 
     .conteiner h1{left: 15px;}
+
+}
+
+@media (max-width: 390px){
+
+    .h span:nth-child(2){font-size: 1.7rem;}
+
 
 }

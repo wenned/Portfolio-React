@@ -30,7 +30,7 @@
 .linha{
     position: absolute;
     background-color: #ebb60b;
-    width: 40%;
+    width: 70%;
     height: 0.3rem;
     border-radius: 2rem;
     top: 16.8rem;
@@ -69,11 +69,22 @@
 
 @media (max-width: 480px) {
     
-    .pro{left: 30%;}
+    .pro{
+        top: 1rem;
+        left: 30%;}
     
     .social{
-        width: 45%;
+        width: 65%;
+        bottom: 3rem;
     }
     
     .v2{right: 10%;}
+
+    .desen{
+        padding-top: 8rem;
+    }
+
+    .linha{
+        top: 15rem;
+    }
 }
