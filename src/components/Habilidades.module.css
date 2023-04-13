@@ -75,6 +75,5 @@
 @media (max-width: 390px){
 
     .h span:nth-child(2){font-size: 1.7rem;}
-
-
+    .conteiner h1{left: 20%;}
 }

@@ -17,12 +17,40 @@
 
 @media (max-width: 1280px){
 
-    .imGG{right: 0;}
-    
+    .imGG{right: 0;} 
 }
 
 @media (max-width: 768px){
 
-    .imGG{right: 0;}
+    .imGG img{width: 600px;}
+    
+    .hab{
+        position: relative;
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 618px){
+
+    .imGG img{width: 450px;}
+}
+
+@media (max-width: 479px){
+
     .imGG img{width: 400px;}
+}
+
+@media (max-width: 390px){
+
+    .imGG img{width: 330px;}
+    
+    .hab{
+        width: 95%;
+        right: 7%;
+    }
+}
+
+@media (max-width: 321px){
+
+    .imGG img{width: 270px;}
 }
