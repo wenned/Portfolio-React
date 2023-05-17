@@ -50,7 +50,7 @@ function Habilidades(){
 
             <h1>Habilidades</h1>
 
-            <div>
+            <div className={style.tls}>
                 
                 <div className={style.contnei}>
                     <FaJs/>

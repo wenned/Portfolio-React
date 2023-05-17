@@ -15,10 +15,23 @@
 }
 .imGG img {border-radius: 10px;}
 
+@media (max-width: 1413px){
+
+    .imGG{right: 1%;} 
+}
+
 @media (max-width: 1280px){
 
     .imGG{right: 0;} 
 }
+
+@media (max-width: 1267px){
+
+    .hab{
+        display: flex;
+    } 
+}
+
 
 @media (max-width: 768px){
 
@@ -26,7 +39,10 @@
     
     .hab{
         position: relative;
+        display: flex;
+        justify-content: center;
         bottom: 5%;
+        width: 100%;
     }
 }
 
@@ -40,13 +56,13 @@
     .imGG img{width: 400px;}
 }
 
-@media (max-width: 390px){
+@media (max-width: 400px){
 
     .imGG img{width: 330px;}
     
     .hab{
         width: 95%;
-        right: 7%;
+        left: 1%;
     }
 }
 

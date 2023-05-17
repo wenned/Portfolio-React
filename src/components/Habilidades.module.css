@@ -11,11 +11,10 @@
     padding-bottom: 2rem;
 }
 
-.conteiner :nth-child(2){
+.tls{
+    position: relative;
     display: flex;
-    justify-content: space-evenly   ;
 }
-
 
 .contnei{
     display: flex;
@@ -60,20 +59,79 @@
 
 @media (max-width: 768px) {
     
-    .conteiner{width: 400px;}   
+    .conteiner{width: 600px;}   
 
-    .contnei svg {font-size: 1.8rem;}
+    .contnei svg {font-size: 3rem;}
  
-    .contnei {padding-left: 1px;}
-    
+    .contnei {
+        padding-left: 1px;
+        width: 5rem;}
+
     .h span:nth-child(2){font-size: 2rem;}
 
     .conteiner h1{left: 15px;}
 
 }
 
-@media (max-width: 390px){
+@media (max-width: 618px) {
+    
+    .conteiner{width: 500px;}   
+}
+
+@media (max-width: 514px) {
+    
+    .conteiner{width: 450px;}   
+}
+
+@media (max-width: 479px) {
+    
+    .conteiner{width: 400px;}   
+}
+
+@media (max-width: 400px){
+
+    .conteiner{width: 370px;}
+
+    .conteiner svg {font-size: 2.5rem;}
 
     .h span:nth-child(2){font-size: 1.7rem;}
+    
     .conteiner h1{left: 20%;}
+}
+
+@media (max-width: 363px) {
+    
+    .conteiner svg{font-size: 2rem;}
+
+    .contnei {
+        padding-left: 2%;
+    }   
+    
+    .h span:nth-child(2){
+        left: 3%;
+        font-size: 1.6rem;}
+
+}
+
+@media (max-width: 350px) {
+    
+    .conteiner{width: 350px;}   
+}
+
+@media (max-width: 330px) {
+    
+    .conteiner{width: 320px;}
+    
+    .conteiner h1{left: 1.5rem;}
+
+    .h span:nth-child(2){
+        left: 2%;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    
+    .conteiner{width: 300px;}   
 }

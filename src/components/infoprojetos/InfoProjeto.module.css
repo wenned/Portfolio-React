@@ -23,9 +23,9 @@
     text-align: justify;
 }
 
-.Container div:nth-child(5){
-    z-index: 2;
-}
+/* .Container div:nth-child(5){
+    z-index: ;
+} */
 
 @media (max-width: 480px) {
 
