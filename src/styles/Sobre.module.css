@@ -131,7 +131,7 @@
         bottom: -1%;}   
 }
 
-@media (max-width: 412px){
+@media (max-width: 414px){
 
     .imG{top: -1%;}
 
@@ -146,7 +146,18 @@
     .conteiner div:nth-child(4){bottom: -1%;}
 }
 
-@media (max-width: 362px){
+@media (max-width: 375px){
 
-    .conteiner{height: 180vh;}
+    .conteiner{height: 200vh;}
+
+    .imG{top: -1.5%;}
+
+    .conteiner div:nth-child(2){
+        bottom: 2%;}
+
+    .conteiner div:nth-child(3){
+        bottom: 2%;}
+
+    .conteiner div:nth-child(4){
+        bottom: 1%;}   
 }
