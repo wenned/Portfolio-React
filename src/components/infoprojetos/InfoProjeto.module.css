@@ -17,12 +17,15 @@
     text-align: center;
 }
 
-.Container div svg{
-    font-size: 3rem;
-}
+.Container div svg{font-size: 3rem;}
 
 .Container div:nth-child(4){
     text-align: justify;
+}
+
+.Container div:nth-child(5){
+    z-index: 1;
+    height: 0;
 }
 
 @media (max-width: 1250px) {
@@ -54,9 +57,7 @@
         width: 100%;
         font-size: 17px;
     }
-    .Container div svg{
-        font-size: 2.5rem;
-    }
+    .Container div svg{font-size: 2.5rem;}
     
     .Container h1{font-size: 2.5rem;}
 
@@ -68,15 +69,12 @@
 
 @media (max-width: 414px) {
     
-    .Container h1{
-        font-size: 2rem;}
+    .Container h1{font-size: 2rem;}
 }
 
 @media (max-width: 392px) {
     
-    .Container div svg{
-        font-size: 1.5rem;
-    }
+    .Container div svg{font-size: 1.5rem;}
 }
 
 @media (max-width: 360px) {
@@ -86,13 +84,9 @@
         bottom: 40%;
     }
 
-    .Container{
-        bottom: 60%;
-    }
+    .Container{bottom: 60%;}
 
-    .Container div:nth-child(5){
-        font-size: 13px;
-    }
+    .Container div:nth-child(5){font-size: 13px;}
 }
 
 @media (max-width: 320px) {
@@ -102,21 +96,13 @@
 
 @media (max-width: 390px) and (max-height: 844px){
 
-    .Container div svg{
-        font-size: 2rem;
-    }
+    .Container div svg{font-size: 2rem;}
 
-    .Container{
-        top: 52%;
-    }
+    .Container{top: 52%;}
 
-    .Container div:nth-child(4){
-        font-size: 21px;
-    }
+    .Container div:nth-child(4){font-size: 21px;}
 
-    .Container div:nth-child(5){
-        font-size: 16px;
-    }
+    .Container div:nth-child(5){font-size: 16px;}
 }
 
 @media (max-width: 414px) and (max-height: 896px){
@@ -128,9 +114,7 @@
     
     .Container{top: 50%;}
 
-    .Container div:nth-child(4){
-        font-size: 21px;
-    }
+    .Container div:nth-child(4){font-size: 21px;}
 
     .Container div:nth-child(5){
         bottom: -17%;
@@ -146,69 +130,43 @@
 
 @media (max-width: 375px) and (max-height: 667px){
 
-    .Container div svg{
-        font-size: 1.7rem;
-    }
+    .Container div svg{font-size: 1.7rem;}
 
-    .Container{
-        top: 50%;
-    }
+    .Container{top: 50%;}
 
-    .Container div:nth-child(4){
-        font-size: 17px;
-    }
+    .Container div:nth-child(4){font-size: 17px;}
 
-    .Container div:nth-child(5){
-        font-size: 15px;
-    }
+    .Container div:nth-child(5){font-size: 15px;}
 
 }
 
 @media (max-width: 360px) and (max-height: 740px){
 
-    .Container div svg{
-        font-size: 1.7rem;
-    }
+    .Container div svg{font-size: 1.7rem;}
 
-    .Container{
-        top: 52%;
-    }
+    .Container{top: 52%;}
 
-    .Container div:nth-child(4){
-        font-size: 18px;
-    }
+    .Container div:nth-child(4){font-size: 18px;}
 
-    .Container div:nth-child(5){
-        font-size: 15px;
-    }
+    .Container div:nth-child(5){font-size: 15px;}
 
 }
 
 @media (max-width: 360px) and (max-height: 640px){
 
-    .Container{
-        top: 49%;
-    }
+    .Container{top: 49%;}
 
-    .Container div:nth-child(4){
-        font-size: 16.9px;
-    }
+    .Container div:nth-child(4){font-size: 16.9px;}
 
-    .Container div:nth-child(5){
-        font-size: 15px;
-    }
+    .Container div:nth-child(5){font-size: 15px;}
 
 }
 
 @media (max-width: 320px) and (max-height: 658px){
 
-    .Container{
-        top: 38%;
-    }
+    .Container{top: 38%;}
 
-    .Container div:nth-child(4){
-        font-size: 17px;
-    }
+    .Container div:nth-child(4){font-size: 17px;}
 
     .Container div:nth-child(5){
         bottom: -13%;
@@ -218,28 +176,18 @@
 
 @media (max-width: 320px) and (max-height: 480px){
     
-    .Container div svg{
-        font-size: 1rem;
-    }
+    .Container div svg{font-size: 1rem;}
 
-    .Container{
-        top: 45%;
-    }
+    .Container{top: 45%;}
 
     .Container h1{
         font-size: 27px;
         position: relative;
     }
 
-    .Container div:nth-child(4){
-        font-size: 14px;
-    }
+    .Container div:nth-child(4){font-size: 14px;}
 
-    .Container div:nth-child(5){
-        font-size: 13px;
-    }
+    .Container div:nth-child(5){font-size: 13px;}
 
-    .Container div:nth-child(2){
-        font-size: 13px;
-    }
+    .Container div:nth-child(2){font-size: 13px;}
 }
