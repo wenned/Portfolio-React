@@ -89,10 +89,8 @@ function Habilidades(){
         </div>
         
         <section id='HbDv' className={style.h}>
-            <div >
-                <div className={style.d}>{/*<span>"</span>*/}</div>
-                <span>{Valor}</span>
-                <div className={style.d}>{/*<span>"</span>*/}</div>
+            <div className={style.tela} >
+                {Valor}
             </div>
         </section>
 

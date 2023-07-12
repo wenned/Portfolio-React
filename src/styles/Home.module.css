@@ -11,6 +11,7 @@
 
 .imGG{
     position: relative;
+    top: 3%;
     right: 5%;
 }
 .imGG img {border-radius: 10px;}

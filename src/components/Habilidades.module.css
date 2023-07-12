@@ -26,8 +26,19 @@
 
 .h{
     display: flex;
-    flex-direction: column;
     position: relative; 
+    height:130px;
+    top: 40px;
+    border: 5px solid #000000;
+}
+
+.tela{
+    background-color: #ffff;
+    position: absolute;
+    font-size: 3rem;
+    top: 60%;
+    left: -1%;
+    padding: 8px;
 }
 
 .pon{
@@ -73,7 +84,8 @@
 
 }
 
-@media (max-width: 618px) {
+@media (max-width: 618px) {    background-image: linear-gradient(90deg, #d6e0e2, #ffff, #d6e0e2);
+
     
     .conteiner{width: 500px;}   
 }
@@ -97,6 +109,18 @@
     .h span:nth-child(2){font-size: 1.7rem;}
     
     .conteiner h1{left: 20%;}
+    
+    .h{
+        height: 70px;
+        margin: 5px;
+        width: 95%;
+    }
+    
+    .tela{
+        top: 50%;
+        font-size: 1.7rem;
+        left: -2%;
+    }
 }
 
 @media (max-width: 363px) {
