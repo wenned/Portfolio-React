@@ -1,8 +1,8 @@
 .Container{
     position:absolute;
-    right: 10%;
     bottom: 30%;
-    width: 45%;
+    width: 100%;
+    right: 5%;
 }
 
 .Container h1{font-size: 3rem;}
