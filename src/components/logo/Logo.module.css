@@ -1,110 +1,48 @@
 .container{
-    width: 300px;
-    height: 300px;
     position: relative;
     display: flex;
-    font-size:8rem;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.w{
-    position: relative;
-    bottom: 15%;
-	font-family: 'El Messiri', sans-serif;
-
-    animation-name: sliderW;
-    animation-duration: 2s;
-    transform: translateX(-70rem);
-    animation-fill-mode: forwards;
-}
-
-.s{
-    position: relative;
-    right: 2.5rem;
-    top: 0.5rem;
-	font-family: 'El Messiri', sans-serif;
-
-    animation-name: sliderS;
-    animation-duration: 2s;
-    transform: translateX(70rem);
-    animation-fill-mode: forwards;
-
-}
-
-.linha{
-    position: absolute;
-    background: #d6e0e2;
-    width: 70px;
-    height: 25px;
-    transform: rotate(-46deg);
-    left: 38.5%;
-    top: 32.3%;
-    z-index: 1;
-
-    animation-name: sliderWhite;
-    animation-duration: 2.5s;
-    animation-fill-mode: forwards;
-}
-
-.llinha{
-    position: absolute;
-    background-color: black;
-    width: 200px;
-    height: 5px;
-    transform: rotate(-43deg);
-    left: 18%;
-    z-index: 2;
-    bottom: 65%;
-
-    animation-name: sliderLinha;
-    animation-duration: 1.5s;
-}
-
 .nome{
-    position: absolute;
-    font-size: 2rem;
-    bottom: 3rem;
-    left: 2rem;
-
+    width: 100%;
+    font-size: 4rem;
     animation-name: sliderNome;
     animation-duration: 2s;
 }
 
-@keyframes sliderW{
-    to{
-        transform: translateX(0);
-    }
+.circulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 10px solid #ff0000;
+    height: 14em;
+    width: 14em;
+    bottom: 5%;
 }
 
-@keyframes sliderS{
-    to{
-        transform: translateX(0);
-    }
+.ws{
+    font-size: 9em;
+    font-weight: bold;
+    font-family: 'Nova Mono', monospace;
 }
 
-@keyframes sliderWhite{
-    from {
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
+@media (max-width: 479px){
 
-@keyframes sliderLinha{
-    from {
-        top: -50%;
+    .circulo{
+        height: 10em;
+        width: 10em;
     }
-    to{
-        top: 35%;
-    }
-}
 
-@keyframes sliderNome{
-    from {
-        bottom: -60%;
+    .ws{
+        font-size: 7em;
     }
-    to{
+
+    .nome{
+        font-size:2.7em;
     }
 }

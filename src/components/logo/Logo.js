@@ -5,10 +5,9 @@ function Logo (){
     return (
 
         <div className={style.container}>
-            <div className={style.w}>W</div>
-            <div className={style.linha}></div>
-            <div className={style.llinha}></div>
-            <div className={style.s}>S</div>
+            <div className={style.circulo}>
+                <div className={style.ws}>WS</div>
+            </div>
             <h1 className={style.nome}>WENNED SILVA</h1>
         </div>
     )
