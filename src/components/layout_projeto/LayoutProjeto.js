@@ -60,10 +60,8 @@ function LayoutProjeto(){
             <div className={`${style.l1} ${style[layout1]}`}>
                 <div className={`${style.nomeProjeto}`} id='l1'>PORTIFOLIO</div>
                                 
-                <span className={style.imagemProjeto}></span>
-
-                <div className={style.proJeto}>
-                    <InfoProjeto id='hy'/>
+                <div className={style.conteinerSecundario}>
+                        <InfoProjeto id='hy'/>
                 </div>
             </div>
 

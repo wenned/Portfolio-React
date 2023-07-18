@@ -11,10 +11,12 @@ function InfoProjeto(){
     return(
 
         <div className={style.Container}>
+            <div className={style.imagemProjeto}></div>
 
-            <h1>Tecnologias Usadas:</h1>
 
-            <div>
+            <div>            
+                <h1>Tecnologias Usadas:</h1>
+
                 <div><FaJs/>: JavaScript</div>
                 <div><FaHtml5/>: Hypertext Markup Language</div>
                 <div><FaCss3/>: Cascading Style Sheets</div>
