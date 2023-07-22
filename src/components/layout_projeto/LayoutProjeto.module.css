@@ -4,7 +4,6 @@
     display: flex;
     width: 100%;
     height: 70%;
-    bottom: 13%;
 }
 
 .l1{
@@ -13,11 +12,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     width: 15%;
     height: 60%;
     cursor: pointer;
-    margin-right: 1rem;
     overflow: hidden;
 }
 
@@ -30,15 +27,6 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-}
-
-.nomeProjeto{
-    position: relative;
-    width: none;
-    transform: rotate(90deg);
-    font-size: 4em;
-    height: 10%;
-    z-index: 2;
 }
 
 .l2{
@@ -101,137 +89,15 @@
     }
 
 .active{
-position: absolute;
-height: 90%;
-z-index: 2;
+    position: absolute;
+    top: 3%;
+    height: 100vh;
+    z-index: 2;
 
-animation-name: Slider;
-animation-duration: 2s;
-animation-fill-mode: forwards;
+    animation-name: Slider;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 
-}
-
-@media (max-width: 1433px) {
-
-    .imagemProjeto{ left: 25%;}
-}
-
-@media (max-width: 1240px) {
-
-    .nomeProjeto{ 
-        right: 10%;
-        bottom: 25%;}
-
-    .proJeto{
-        top: 5%;
-    }
-
-    .imagemProjeto{ left: 17%;}
-
-}
-
-
-@media (max-width: 1156px) {
-
-    .proJeto{ 
-        right: 25%;}
-}
-
-@media (max-width: 1100px) {
-
-    .proJeto{ 
-        height: 80%;
-        right: 15%;}
-}
-
-@media (max-width: 1000px) {
-
-    .imagemProjeto{
-        width: 370px;
-        left: 1%;
-    }
-
-    .proJeto{
-        width: 600px;
-    }
-}
-
-@media (max-width: 820px) {
-    
-    .l1 span{
-        top: -4%;
-        background-size: 350px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .l2 span{
-        font-size: 3rem;
-        left: -8rem;
-        z-index: 0;
-    }
-    .l3 span{
-        font-size: 3rem;
-        left: -8rem;
-    }
-    .l4 span{
-        font-size: 3rem;
-        left: -8rem;
-    }
-
-}
-
-@media (max-width: 412px) {
-
-    .l1 span {top: -4%;
-        background-size: 90%;    
-    }
-}
-
-@media (max-width: 320px) {
-
-    .l1 span {top: -8%;}
-}
-
-@media (max-width: 390px) and (max-height: 844px){
-
-    .l1 span{
-        background-size: 90%;
-    }
-}
-
-@media (max-width: 375px) and (max-height: 667px){
-
-    .l1 span{
-        top: -5.5%;
-        background-size: 75%;
-    }
-}
-
-@media (max-width: 360px) and (max-height: 640px){
-
-    .l1 span{
-        top: -6%;
-        background-size: 75%;
-    }
-}
-
-@media (max-width: 320px) and (max-height: 658px){
-
-    .l1 span{
-        top: -12%;
-        left: 10%;
-        background-size: 65%;
-    }
-}
-
-@media (max-width: 320px) and (max-height: 480px){
-
-    .l1 span{
-        top: -7%;
-        background-size: 60%;
-    }
 }
 
 @keyframes Slider{

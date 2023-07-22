@@ -1,213 +1,197 @@
 .Container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 170px 1fr;
+}
+
+.nomeProjeto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    font-size: 4em;
+    height: 10%;
+    top: 21%;
+}
+
+.contSecundario{
     position:relative;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100%;
-
-    right: 5%;
 }
 
-
-.imagemProjeto{
-    position: relative;
-    width: 100%;
-    background-image: url('/src/imagens/portifolio.png');
-    -moz-border-radius: 50px;
-    border-radius: 10%;
-    border: none;
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 3%;
+.imagemProjeto img{
+    width: 380px;
 }
 
-
-.Container h1{
-    width: 100%;
-    font-size: 3rem;}
-
-.Container div{
+.Container h1 {
     position: relative;
     display: flex;
-    padding: 0.5rem;
-    justify-content: space-between;
+    justify-content: right;
+    width: 100%;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.dadosSkil{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.skils{
+    position: relative;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skils div {
+    position: relative;
+    display: flex;
     align-items: center;
-    text-align: center;
+    font-size: 1.2em;
+    padding: 3px;
 }
 
-.Container div svg{font-size: 3rem;}
+.skils div svg{
+    font-size: 2em;
+}
 
-.Container div:nth-child(4){
+.texto{
+    position: relative;
     text-align: justify;
+    font-size: 1.5em;
+    padding: 10px;
+    top: 2%;
 }
 
-.Container div:nth-child(5){
-    z-index: 1;
-    height: 0;
+.link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    top: 5%;
+    padding-top: 5%;
+}
+
+@media (max-width: 1400px) {
+
+    .skils div{
+        font-size: 0.8em;
+        flex-direction: column;
+    }
+
+    .skils div svg{font-size: 1.5em;}
+
+}
+
+@media (max-width: 1124px) {
+    .imagemProjeto{right: 10%;}
+    .dadosSkil h1{font-size: 2.2em;}
 }
 
 @media (max-width: 1250px) {
-    .Container{right: 5%;}
+    .dadosSkil h1 {font-size: 2.2em;}
 }
 
-@media (max-width: 1158px) {
-
-    .Container{right: 1%;}
+@media (max-width: 1100px) {
+    .skils{flex-direction: column;}
+    .skils div{
+        flex-direction: row;}
+    .texto{font-size: 1.2em;}
 }
 
-@media (max-width: 1020px) {
-    
+@media (max-width: 1000px) {
+
+    .contSecundario{flex-direction: column;}
+    .imagemProjeto img{width: 300px;}
+}
+
+@media (max-width: 910px) {
+
+    .Container h1{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 570px) {
+
     .Container{
-        bottom: 10%;
-        right: 5%;
-        width: 90%;
+        display: flex;
+        flex-direction: column;
     }
-}
 
-@media (max-width: 820px) {
-    
-    .Container{top: 50%;}
-}
+    .nomeProjeto{
+        font-size: 2.5em;
+        top: 10%;
+        transform: rotate(0deg);}
+    .imagemProjeto img {width: 280px;}
 
-@media (max-width: 500px) {
     
-    .Container div:nth-child(4){
-        width: 100%;
-        font-size: 17px;
-    }
-    .Container div svg{font-size: 2.5rem;}
-    
-    .Container h1{font-size: 2.5rem;}
-
-    .Container div:nth-child(5){
-        bottom: -13%;
-        position: absolute;
-    }
 }
 
 @media (max-width: 414px) {
-    
-    .Container h1{font-size: 2rem;}
-}
 
-@media (max-width: 392px) {
+    .nomeProjeto{top: 1%;}
+
+    .imagemProjeto img {width: 200px;}
+    .link{
+        font-size: 1em;
+        padding: 0;}
     
-    .Container div svg{font-size: 1.5rem;}
 }
 
 @media (max-width: 360px) {
     
-    .Container h1{
-        position: relative;
-        bottom: 40%;
-    }
-
-    .Container{bottom: 60%;}
-
-    .Container div:nth-child(5){font-size: 13px;}
 }
 
 @media (max-width: 320px) {
 
-    .Container{top: 42%;}
 }
 
 @media (max-width: 390px) and (max-height: 844px){
 
-    .Container div svg{font-size: 2rem;}
 
-    .Container{top: 52%;}
-
-    .Container div:nth-child(4){font-size: 21px;}
-
-    .Container div:nth-child(5){font-size: 16px;}
 }
 
 @media (max-width: 414px) and (max-height: 896px){
     
-    .Container{top: 55%;}
 }
 
 @media (max-width: 412px) and (max-height: 915px){
     
-    .Container{top: 50%;}
-
-    .Container div:nth-child(4){font-size: 21px;}
-
-    .Container div:nth-child(5){
-        bottom: -17%;
-        font-size: 15px;
-    }
 }
 
 @media (max-width: 390px) and (max-height: 844px){
     
-    .Container{top: 49.5%;}
-
 }
 
 @media (max-width: 375px) and (max-height: 667px){
-
-    .Container div svg{font-size: 1.7rem;}
-
-    .Container{top: 50%;}
-
-    .Container div:nth-child(4){font-size: 17px;}
-
-    .Container div:nth-child(5){font-size: 15px;}
 
 }
 
 @media (max-width: 360px) and (max-height: 740px){
 
-    .Container div svg{font-size: 1.7rem;}
-
-    .Container{top: 52%;}
-
-    .Container div:nth-child(4){font-size: 18px;}
-
-    .Container div:nth-child(5){font-size: 15px;}
-
 }
 
 @media (max-width: 360px) and (max-height: 640px){
-
-    .Container{top: 49%;}
-
-    .Container div:nth-child(4){font-size: 16.9px;}
-
-    .Container div:nth-child(5){font-size: 15px;}
 
 }
 
 @media (max-width: 320px) and (max-height: 658px){
 
-    .Container{top: 38%;}
-
-    .Container div:nth-child(4){font-size: 17px;}
-
-    .Container div:nth-child(5){
-        bottom: -13%;
-        font-size: 13.1px;
-    }
 }
 
 @media (max-width: 320px) and (max-height: 480px){
     
-    .Container div svg{font-size: 1rem;}
-
-    .Container{top: 45%;}
-
-    .Container h1{
-        font-size: 27px;
-        position: relative;
-    }
-
-    .Container div:nth-child(4){font-size: 14px;}
-
-    .Container div:nth-child(5){font-size: 13px;}
-
-    .Container div:nth-child(2){font-size: 13px;}
 }

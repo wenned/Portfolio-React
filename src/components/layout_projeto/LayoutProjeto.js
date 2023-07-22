@@ -6,13 +6,14 @@ import style from '../layout_projeto/LayoutProjeto.module.css'
 function LayoutProjeto(){
 
 
-    const [layout1, setLayout1] = useState('')
+    const [layout1, setLayout1] = useState('active')
     const [layout2, setLayout2] = useState('')
     const [layout3, setLayout3] = useState('')
     const [layout4, setLayout4] = useState('')
 
   document.addEventListener('click', (e)=>{
 
+    console.log(e.target.id)
     switch (e.target.id){
 
         case 'l1':
@@ -57,12 +58,8 @@ function LayoutProjeto(){
  
         <div className={style.conteiner}>
 
-            <div className={`${style.l1} ${style[layout1]}`}>
-                <div className={`${style.nomeProjeto}`} id='l1'>PORTIFOLIO</div>
-                                
-                <div className={style.conteinerSecundario}>
-                        <InfoProjeto id='hy'/>
-                </div>
+            <div  id='11' className={`${style.l1} ${style[layout1]}`}>    
+                <InfoProjeto id='hy'/>
             </div>
 
             <div className={`${style.l2} ${style[layout2]}`}>
