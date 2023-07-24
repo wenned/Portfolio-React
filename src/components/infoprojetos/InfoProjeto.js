@@ -14,9 +14,7 @@ function InfoProjeto(){
 
         <div className={style.Container}>
 
-            <div className={`${style.nomeProjeto}`} >PORTIFOLIO</div>
-
-            <div className={style.contSecundario}>
+            <div className={style.contSecundario} id='secod'>
 
                 <div className={style.imagemProjeto}><img src={portifolioImg} alt='portifolio'/></div>
                 

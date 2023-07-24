@@ -16,29 +16,42 @@
     height: 60%;
     cursor: pointer;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
-.conteinerSecundario{
+.nomeProjeto{
     position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    transform: rotate(90deg);
+    font-size: 4em;
+    height: 10%;
 }
 
 .l2{
     background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
-    cursor: pointer;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15%;
     height: 60%;
-    top: 5%;
+    cursor: pointer;
+    overflow: hidden;
     margin-right: 1rem;
+    top: 5%;
 }
 
+.nomeProjeto2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    font-size: 3em;
+    height: 10%; 
+}
 
 .l3{
     background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
@@ -67,7 +80,7 @@
     font-size: 4rem;
     width: 20rem;
     top: 15rem;
-    left: -6rem;
+    right: -6rem;
     }
 
 .l3 span{
@@ -98,6 +111,37 @@
     animation-duration: 2s;
     animation-fill-mode: forwards;
 
+}
+
+.inativo{
+    display: none;
+}
+
+.nome{display: none;}
+
+.inativoOk{display: block;}
+
+@media (max-width: 570px) {
+
+    .nomeProjeto{
+        font-size: 2.5em;
+        top: 1%;
+    }
+
+    .nomeProjeto2{
+        font-size: 2.5em;
+        top: 1%;
+    }  
+
+    .nomeProjeto3{
+        font-size: 2.5em;
+        top: 1%;
+    }
+
+    .nomeProjeto4{
+        font-size: 2.5em;
+        top: 1%;
+    }  
 }
 
 @keyframes Slider{

@@ -6,21 +6,28 @@ import style from '../layout_projeto/LayoutProjeto.module.css'
 function LayoutProjeto(){
 
 
-    const [layout1, setLayout1] = useState('active')
+    const [layout1, setLayout1] = useState('')
+    const [layoutDiv1, setLayoutDiv1] = useState('')
+    const [nomeoff, setNomeoff] = useState('')
+
     const [layout2, setLayout2] = useState('')
     const [layout3, setLayout3] = useState('')
     const [layout4, setLayout4] = useState('')
 
   document.addEventListener('click', (e)=>{
-
-    console.log(e.target.id)
+    console.log(e.target)
     switch (e.target.id){
 
-        case 'l1':
+        case 'Elemento1':
             
             if(layout1 === ''){
                 setLayout1('active');
-            }else(setLayout1(''))
+                setLayoutDiv1('inativoOk')
+                setNomeoff('nome')
+            }else{
+                setLayout1('');
+                setLayoutDiv1('')
+            }
             
             break
 
@@ -49,6 +56,13 @@ function LayoutProjeto(){
             
             break
 
+        case 'secod':
+                        
+            setLayout1('');
+            setLayoutDiv1('')
+            setNomeoff('')
+            break
+
         default:
             //no default
     }
@@ -58,12 +72,13 @@ function LayoutProjeto(){
  
         <div className={style.conteiner}>
 
-            <div  id='11' className={`${style.l1} ${style[layout1]}`}>    
-                <InfoProjeto id='hy'/>
+            <div  id='Elemento1' className={`${style.l1} ${style[layout1]}`}>
+                <div className={`${style.nomeProjeto}  ${style[nomeoff]}`} >PORTIFOLIO</div>
+                <div className={`${style.inativo} ${style[layoutDiv1]}`}><InfoProjeto/></div>
             </div>
 
-            <div className={`${style.l2} ${style[layout2]}`}>
-                <span>B R E V E</span>
+            <div  id='Elemento1' className={`${style.l2} ${style[layout2]}`}>
+                <span className={`${style.nomeProjeto2}  ${style[nomeoff]}`} >B R E V E</span>
             </div>
 
             <div className={`${style.l3} ${style[layout3]}`}>

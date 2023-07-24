@@ -5,17 +5,6 @@
     grid-template-columns: 170px 1fr;
 }
 
-.nomeProjeto{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(90deg);
-    font-size: 4em;
-    height: 10%;
-    top: 21%;
-}
-
 .contSecundario{
     position:relative;
     justify-content: center;
