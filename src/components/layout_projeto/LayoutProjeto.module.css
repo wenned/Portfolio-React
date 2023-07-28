@@ -6,7 +6,7 @@
     height: 70%;
 }
 
-.l1{
+.tela{
     background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
     position: relative;
     display: flex;
@@ -29,81 +29,9 @@
     height: 10%;
 }
 
-.l2{
-    background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    height: 60%;
-    cursor: pointer;
-    overflow: hidden;
-    margin-right: 1rem;
-    top: 5%;
-}
-
-.nomeProjeto2{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(90deg);
-    font-size: 3em;
-    height: 10%; 
-}
-
-.l3{
-    background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
-    width: 15%;
-    height: 60%;
-    cursor: pointer;
-    position: relative;
-    top: 8%;
-    margin-right: 1rem;
-}
-
-
-.l4{
-    background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
-    width: 15%;
-    height: 60%;
-    cursor: pointer;
-    position: relative;
-    margin-right: 1rem;
-
-}
-
-.l2 span{
-    position: absolute;
-    transform: rotate(90deg);
-    font-size: 4rem;
-    width: 20rem;
-    top: 15rem;
-    right: -6rem;
-    }
-
-.l3 span{
-    position: absolute;
-    transform: rotate(90deg);
-    font-size: 4rem;
-    width: 20rem;
-    top: 15rem;
-    left: -6rem;
-    }
-
-.l4 span{
-    position: absolute;
-    transform: rotate(90deg);
-    font-size: 4rem;
-    width: 20rem;
-    top: 15rem;
-    left: -6rem;
-    }
 
 .active{
     position: absolute;
-    top: 3%;
     height: 100vh;
     z-index: 2;
 

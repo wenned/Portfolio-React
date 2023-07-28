@@ -72,24 +72,23 @@ function LayoutProjeto(){
  
         <div className={style.conteiner}>
 
-            <div  id='Elemento1' className={`${style.l1} ${style[layout1]}`}>
+            <div  id='Elemento1' className={`${style.tela} ${style[layout1]}`}>
                 <div className={`${style.nomeProjeto}  ${style[nomeoff]}`} >PORTIFOLIO</div>
                 <div className={`${style.inativo} ${style[layoutDiv1]}`}><InfoProjeto/></div>
             </div>
 
-            <div  id='Elemento1' className={`${style.l2} ${style[layout2]}`}>
-                <span className={`${style.nomeProjeto2}  ${style[nomeoff]}`} >B R E V E</span>
+            <div  id='Elemento2' className={`${style.tela} ${style[layout2]}`}>
+                <div className={`${style.nomeProjeto}  ${style[nomeoff]}`} >BREVE</div>
             </div>
 
-            <div className={`${style.l3} ${style[layout3]}`}>
-                <div id="Elemento3" className={style.DivStyle} ></div>
-                <span>B R E V E</span>
+            <div  id='Elemento3' className={`${style.tela} ${style[layout3]}`}>
+                <div className={`${style.nomeProjeto}  ${style[nomeoff]}`} >BREVE</div>
             </div>
             
-            <div className={`${style.l4} ${style[layout4]}`}>
-                <div id="Elemento4" className={style.DivStyle} ></div>
-                <span>B R E V E</span>
+            <div  id='Elemento4' className={`${style.tela} ${style[layout4]}`}>
+                <div className={`${style.nomeProjeto}  ${style[nomeoff]}`} >BREVE</div>
             </div>
+
         </div>
     )
 };
