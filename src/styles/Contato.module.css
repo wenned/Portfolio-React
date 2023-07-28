@@ -92,3 +92,23 @@
         top: 15rem;
     }
 }
+
+@media (max-width: 414px) {
+
+    .titulos{font-size: 1.5em;}
+
+    .pro{left: 50%;}
+
+    .conteiner ol {
+        padding-top: 0em;
+    }
+    .conteiner ol li{
+        padding-top: 0.5em;
+       font-size: 0.8em;
+    }
+
+    .linha{top: 11em;}
+
+    .desen{
+        padding-top: 4em;}
+}

@@ -84,9 +84,7 @@
 
 }
 
-@media (max-width: 618px) {    background-image: linear-gradient(90deg, #d6e0e2, #ffff, #d6e0e2);
-
-    
+@media (max-width: 618px) {   
     .conteiner{width: 500px;}   
 }
 
@@ -99,6 +97,14 @@
     
     .conteiner{width: 400px;}   
 }
+
+@media (max-width: 414px) {
+    .tela{
+        left: -2%;
+        top: 63%;
+        font-size: 1.9em;}
+}
+
 
 @media (max-width: 400px){
 
@@ -123,7 +129,7 @@
     }
 }
 
-@media (max-width: 363px) {
+@media (max-width: 360px) {
     
     .conteiner svg{font-size: 2rem;}
 
@@ -134,6 +140,11 @@
     .h span:nth-child(2){
         left: 3%;
         font-size: 1.6rem;}
+
+    .tela{
+        font-size: 1.3rem;
+        left: -3%;
+    }
 
 }
 
