@@ -112,3 +112,11 @@
     .desen{
         padding-top: 4em;}
 }
+
+@media (max-width: 896px) and (max-height: 415px){
+
+    .linha{display: none;}
+    .social{
+        right: 3em;
+        bottom: 1em;}
+}

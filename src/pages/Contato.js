@@ -42,7 +42,6 @@ function Contato(){
             <div className={style.desen}>
                 <span className={style.titulos} >Desenvolvimento</span>
                 <ol>
-
                     <li>Next.JS</li>
                     <li>React</li>
                     <li>Html</li>
