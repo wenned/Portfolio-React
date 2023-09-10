@@ -14,9 +14,9 @@ function App() {
 
       <NavBar/>
         <Home />
-        <Sobre/>
-        <Projetos/>
-        <Contato/>
+          <Sobre/>
+            <Projetos/>
+              <Contato/>
         
     </div>
   );

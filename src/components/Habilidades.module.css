@@ -93,12 +93,13 @@
 }
 
 @media (max-width: 618px) {   
-    .conteiner{width: 500px;}   
+    .conteiner{width: 500px;}  
+    .tela{font-size: 2.1rem;} 
 }
 
 @media (max-width: 514px) {
     
-    .conteiner{width: 450px;}   
+    .conteiner{width: 450px;}
 }
 
 @media (max-width: 479px) {

@@ -6,11 +6,11 @@ import LayoutProjeto from "../components/layout_projeto/LayoutProjeto";
 function Projetos(){
 
     return (
-        <>
-            <div className={style.conteiner} id="Projetos">
+        <div className={style.Conteiner}>
+            <div className={style.conteinerProjetos} id="Projetos">
                 <LayoutProjeto/>
             </div>
-        </>
+        </div>
         )
 }
 

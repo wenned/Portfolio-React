@@ -1,163 +1,110 @@
 .conteiner{
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    text-align: justify;
+    font-size: 1.3em;
+    height: 100vh;
+}
+
+.ImagemSobre{
     display: flex;
-    height: 110vh;
-    background-image: linear-gradient(90deg, #d6e0e2, #ffff, #d6e0e2);
-    overflow: hidden;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1.5rem;
+    align-items: center;    
+    margin: 15px;
 }
 
-.imG{display: flex;
-    position: relative;
-    right: 25%;
-    top: 10%;
-    border-radius: 7px;    
+.ImagemSobre img {
+    width:350px;
 }
 
-.imG img{width: 400px;}
-
-.conteiner div:nth-child(2){
-    position: relative;
-    width: 50%;
-    text-align: justify;
-    left: 20%;
-    bottom: 20%;
+.Sobre{
+    margin: 15px;
 }
 
-.conteiner div:nth-child(3){
-    position: relative;
-    left: 14.5%;
-    text-align: justify;
-    bottom: 15%;
+.Formacao{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 15px;
+    margin: 15px;
 }
 
-.conteiner div:nth-child(4){
-    position: relative;
-    width: 80%;
-    text-align: justify;
-    left: 5%;
-    bottom: 10%;
+.ApresentacaoSobre{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-items: center;
+    margin: 15px;
 }
 
-@media (max-width: 1280px){
-
-    .conteiner{height: 128vh;}
-
-    .conteiner div:nth-child(2){
-        left: 23%;
-    }
-
-    .imG{
-        right: 23%;
-        top: 10%;
-    }
-}
-
-@media (max-width: 1105px){
+@media (max-width: 900px){
 
     .conteiner{
-        height: 93vh;
-        font-size: 1.3rem;
-        flex-wrap: wrap;}
-
-    .imG{
-        width: 50%;
-        right: 0;
-        left: 1.5%;
-        top: -1%;
-    }
-    
-    .conteiner div:nth-child(2){
-        width: 100%;
-        left: 0;
-        bottom: 2%;
-        padding: 1rem;
+        height: 85vh;
     }
 
-    .conteiner div:nth-child(3){
-        left: 5px;
-        padding: 10px;
-        bottom: 2%;
-        font-size: 19px;
-    }
-
-    .conteiner div:nth-child(4){
-        width: 100%;
-        left: 0;
-        padding: 15px;
-        bottom: -1%;
-    }
-}
-
-
-@media (max-width: 1105px){
-    
-    .imG{top: 1%;}
 }
 
 @media (max-width: 850px){
 
-    .conteiner{height: 128vh;}
-
-    .imG{top: -7%;}
-}
-
-@media (max-width: 525px){
-    
-    .imG{top: -4%;}
-}
-
-@media (max-width: 492px){
-    
-    .imG{top: -2%;}
-}
-
-@media (max-width: 450px){
-
-    .conteiner{height: 150vh;}
-
-    .imG{top: -4.5%;}
-
-    .conteiner div:nth-child(2){
-        bottom: 4%;}
-
-    .conteiner div:nth-child(3){
-        bottom: 2%;}
-
-    .conteiner div:nth-child(4){
-        bottom: -1%;}   
-}
-
-@media (max-width: 414px){
-
-    .imG{top: -1%;}
-
-    .imG img {
-        position: relative;
-        right: 17%;
+    .Formacao{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 130px;
     }
-    .conteiner div:nth-child(2){bottom: 0;}
-
-    .conteiner div:nth-child(3){bottom: 0;}
-
-    .conteiner div:nth-child(4){bottom: -1%;}
 }
 
-@media (max-width: 375px){
+@media (max-width: 810px){
 
-    .conteiner{height: 200vh;}
+    .conteiner{
+        height: 100vh;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 0.5fr;
+    }
+}
 
-    .imG{top: -1.5%;}
 
-    .conteiner div:nth-child(2){
-        bottom: 2%;}
+@media (max-width: 750px){
+    
+    .ImagemSobre img {
+        width:250px;
+    }
+}
 
-    .conteiner div:nth-child(3){
-        bottom: 2%;}
+@media (max-width: 650px) {
 
-    .conteiner div:nth-child(4){
-        bottom: 1%;}   
+    .conteiner{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 2fr 1fr;
+    }
+
+    .ImagemSobre {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .Sobre{
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+}
+
+@media (max-width: 590px){
+
+    .conteiner{
+        height: 130vh;
+    }
+}
+
+@media (max-width: 445px){
+
+    .conteiner{
+        height: 180vh;
+    }
+}
+
+@media (max-width: 414px) and (max-height: 667px){
+
+    .conteiner{
+       height: 190vh;
+    }
 }

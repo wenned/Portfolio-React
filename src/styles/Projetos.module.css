@@ -1,9 +1,15 @@
-.conteiner{
+.Conteiner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+
+.conteinerProjetos{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 125vh;
     flex-wrap: wrap;
     overflow: hidden;
 }
