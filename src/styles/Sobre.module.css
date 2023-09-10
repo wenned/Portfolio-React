@@ -128,16 +128,9 @@
     }
 }
 
-@media (max-width: 320px) and (max-height: 667px){
+@media (max-width: 375px) and (max-height: 667px){
 
     .conteiner{
-       height: 240vh;
-    }
-}
-
-@media (max-width: 320px) and (max-height: 565px){
-
-    .conteiner{
-       height: 270vh;
+       height: 250vh;
     }
 }
