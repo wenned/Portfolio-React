@@ -151,10 +151,10 @@
 
 }
 
-@media (max-width: 667px) and (max-height: 414px){
+@media (max-width: 746px) and (max-height: 349px){
 
     .conteiner{
-        height: 230vh;
+        height: 250vh;
      }
 
 }
