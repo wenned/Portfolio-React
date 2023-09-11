@@ -91,6 +91,19 @@
 @media (max-width: 896px) and (max-height: 414px){
 
     .hab{top: -15%;}
+    .imGG{right: -4%;}
+
+}
+
+@media (max-width: 667px) and (max-height: 375px){
+
+    .imGG img{width: 170px;}
+    .imGG{right: -12%;}
+
+}
+
+@media (max-width: 736px) and (max-height: 414px){
+
     .imGG{right: -12%;}
 
 }
