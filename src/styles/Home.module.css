@@ -1,115 +1,112 @@
 .conteiner{
-    display: flex;    
-    position: relative;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    align-items: center;
-    overflow: hidden;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 90vh;
+    width: 70%;
 }
 
 .imagemHome{
+    display: flex;
     position: relative;
-    top: 3%;
-    right: 15%;
+    justify-content: center;
+    align-items: center;
 }
 
-.imagemHome img {border-radius: 10px;}
-
-@media (max-width: 1413px){
-
-    .imagemHome{right: 1%;} 
+.imagemHome img{
+    border-radius: 7px;
+    width: 80%;
 }
 
-@media (max-width: 1280px){
-
-    .imagemHome{right: 0;} 
+.habilidades{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.2fr 1fr;
 }
 
-@media (max-width: 1267px){
-
-    .habilidades{
-        position: relative;
-        display: flex;
-    } 
+.titulo{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3em;
 }
 
-
-@media (max-width: 768px){
-
-    .imagemHome img{width: 600px;}
-    
-    .habilidades{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        bottom: 5%;
-        width: 100%;
-    }
+.skils{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-@media (max-width: 650px) {
-    .conteiner{width: 100%;}
+.skils svg {
+    position: relative;
+    font-size: 3em;
+    cursor: pointer;
+    z-index: 1;
 }
 
-
-@media (max-width: 618px){
-
-    .imagemHome img{width: 450px;}
+.tela{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    height: 20%;
+    top: 10%;
+    border: 5px solid black;
 }
 
-@media (max-width: 479px){
-
-    .imagemHome img{width: 400px;}
+.valorSkil{
+    position: relative;
+    font-size: 2em;
+    font-weight: bolder;
+    bottom: -10%;
+    left: -2%;
+    padding: 3px;
+    background-color: #ffff;
 }
 
-@media (max-width: 400px){
-
-    .imagemHome img{width: 330px;}
-    
-    .habilidades{
-        width: 95%;
-        left: 1%;
-    }
-}
-
-@media (max-width: 321px){
-
-    .imagemHome img{width: 270px;}
-}
-
-@media (max-width: 915px) and (max-height: 415px){
+@media (max-width: 1024px){
 
     .conteiner{
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-around;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
-        
-    .imagemHome img{width: 250px;}
 
-    .habilidades{padding: 10px;}
+    .habilidades{
+        grid-template-rows: 1fr 0.6fr 1fr;
+    }
 
+    .skils svg{
+        font-size: 2.3em;
+    }
+
+    .tela{
+        height: 35%;
+    }
 }
 
-@media (max-width: 896px) and (max-height: 414px){
+@media (max-width: 585px){
 
-    .habilidades{top: -15%;}
-    .imagemHome{right: -4%;}
+    .conteiner{
+        width: 100%;
+    }
 
-}
+    .habilidades{
+        grid-template-rows: 1fr 0.8fr 1fr;
+        margin: 3%;
+    }
 
-@media (max-width: 667px) and (max-height: 375px){
+    .skils svg{
+        font-size: 2em;
+    }
 
-    .imagemHome img{width: 170px;}
-    .imagemHome{right: -12%;}
+    .tela{
+        height: 50%;
+    }
 
-}
-
-@media (max-width: 736px) and (max-height: 414px){
-
-    .imagemHome{right: -12%;}
-
+    .valorSkil{
+        bottom: -20%;
+        font-size: 1.5em;
+    }
 }
