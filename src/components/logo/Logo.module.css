@@ -41,8 +41,7 @@
     .ws{font-size: 5em;}
 
     .container {
-        flex-direction: row;
-        bottom: 10%;
+        bottom: 30%;
     }
 }
 
@@ -82,20 +81,21 @@
 }
 
 
+@media (max-width: 746px) and (max-height: 414px){
+
+    .container{bottom: 40%;}
+
+}
+
 @media (max-width: 736px) and (max-height: 414px){
 
-    .circulo{bottom: -40%;}
-
-    .nome{
-        position: relative;
-        top: 40%;
-    }
+    .container{bottom: 30%;}
 
 }
 
 @media (max-width: 667px) and (max-height: 375px){
 
-    .circulo{bottom: -40%;}
+    /* .circulo{bottom: -40%;} */
 
     .nome{
         position: relative;
