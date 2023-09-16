@@ -110,3 +110,48 @@
         font-size: 1.5em;
     }
 }
+
+@media (max-width: 896px) and (max-height: 414px){
+
+    .conteiner{height: 160vh;}
+
+    .habilidades{
+        position: relative;
+        bottom: 15%;
+    }
+
+    .tela{
+        height: 70%;
+    }
+}
+
+@media (max-width: 736px) and (max-height: 414px){
+
+    .conteiner{height: 150vh;}
+
+    .habilidades{
+        position: relative;
+        bottom: 15%;
+    }
+
+    .tela{
+        height: 70%;
+    }
+}
+
+/* MEDIDAS IPHONE 8,7,6,6S VERTICAL E HORIZONTAL */
+@media (max-width: 375px) and (max-height: 667px){}
+
+@media (max-width: 667px) and (max-height: 375px){
+
+    .conteiner{height: 150vh;}
+
+    .habilidades{
+        position: relative;
+        bottom: 15%;
+    }
+
+    .tela{
+        height: 70%;
+    }
+}

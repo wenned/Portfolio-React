@@ -19,15 +19,7 @@ function Contato(){
     return (
         <div className={`${style.conteiner}`} id="Contato">
 
-            <div className={style.social} id='Contat'>
-
-                <span className={style.l}><FaLinkedin onClick={FaLink}/></span>
-                <span className={style.l}><FaGithub onClick={FaGit}/></span>
-                <span className={style.l}><FaTwitter onClick={FaTw}/></span>
-
-            </div>
-
-            <div className={style.pro}>
+            <div className={style.skillProgramacao}>
                 <span className={style.titulos} >Programação</span>
                 <ol>
                     <li>JavaScript</li>
@@ -37,9 +29,8 @@ function Contato(){
                 </ol>
             </div>
 
-            <div className={style.linha}></div>
 
-            <div className={style.desen}>
+            <div className={style.skillDesenvolvimento}>
                 <span className={style.titulos} >Desenvolvimento</span>
                 <ol>
                     <li>Next.JS</li>
@@ -49,6 +40,20 @@ function Contato(){
                 </ol>
             </div>
 
+            <div className={style.redeContato} id='Contat'>
+
+                <div className={style.circulo}>
+                    <div className={style.ws}>WS</div>
+                </div>
+
+                <div className={style.iconsRede}>
+                    <FaLinkedin onClick={FaLink}/>
+                    <FaGithub onClick={FaGit}/>
+                    <FaTwitter onClick={FaTw}/>
+                </div>
+
+
+            </div>
         </div>
     )
 }

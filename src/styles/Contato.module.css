@@ -1,188 +1,155 @@
 .conteiner{
-    overflow: hidden;
+    width: 70%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #d6e0e2;
+    align-items: center;
+}
+
+.redeContato{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #ffff;
+    height: 80%;
+}
+
+.iconsRede{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconsRede svg{
+    cursor: pointer;
+    font-size: 2em;}
+
+.titulos{
+    font-weight: bold;
+}
+ 
+.skillProgramacao{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+ol{
+    list-style: none;
+}
+
+li {margin-top: 30%;}
+
+.skillDesenvolvimento{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    height: 80%;
+    border-left: 2px solid #ffff;
+}
+
+
+.circulo{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    width: 70%;
-    flex-wrap: wrap;
-    background-image: linear-gradient(180deg, black, gray);
+    border-radius: 100%;
+    border: 7px solid #ff0000;
+    height: 4em;
+    width: 4em;
+    bottom: 5%;
+    left: 36%;
 }
 
-.social{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 3rem;
-    width: 25%;
-    justify-content: space-between;
-    color: #ffffff;
-    bottom: 7rem;
-
-}
-
-.l:hover{
-    color: #ebb60b;
-    cursor: pointer;
-}
-
-.linha{
-    position: absolute;
-    background-color: #ebb60b;
-    width: 70%;
-    height: 0.3rem;
-    border-radius: 2rem;
-    top: 16.8rem;
-}
-
-.titulos{
-    font-size: 2rem;
+.ws{
+    font-size: 2em;
     font-weight: bold;
-    color: #ebb60b;
+    font-family: 'Nova Mono', monospace;
 }
 
-.pro{
-    position: absolute;
-    left: 50%;
-    top: 2.7rem;
-}
+@media (max-width: 800px){
 
-.desen{
-    position: absolute;
-    left: 20%;
-    padding-top: 5rem;
+    .conteiner{width: 100%;}
 
 }
 
-.conteiner ol{
-    color: #ffc70e;
-    text-decoration: none;
-    padding: 1rem;
-    list-style-type: none;
-    font-weight: bold;    
-}
+@media (max-width: 600px){
 
-.conteiner ol li{
-    padding-top: 1rem;
-}
-
-@media (max-width: 1280px){
-    .linha{top: 15.8rem;}
-}
-
-
-@media (max-width: 1024px){
+    .circulo{display: none;}
 
     .conteiner{
-        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr;
+    }
+
+    .redeContato{
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
 }
 
-@media (max-width: 480px) {
-    
-    .pro{
-        top: 1rem;
-        left: 30%;}
-    
-    .social{
-        width: 65%;
-        bottom: 3rem;
+@media (max-width: 414px){
+
+    .skillDesenvolvimento, .skillProgramacao{
+        font-size: 1.1em;
     }
-    
-    .v2{right: 10%;}
-
-    .desen{
-        padding-top: 8rem;
-    }
-
-    .linha{
-        top: 15rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .conteiner{width: 100%;}
-}
-
-@media (max-width: 414px) {
-
-    .titulos{font-size: 1.5em;}
-
-    .pro{left: 50%;}
-
-    .conteiner ol {
-        padding-top: 0em;}
-
-    .conteiner ol li{
-        padding-top: 0.5em;
-       font-size: 0.8em;}
-
-    .linha{top: 11em;}
-
-    .desen{
-        padding-top: 4em;}
-}
-
-@media (max-width: 896px) and (max-height: 415px){
-
-    .linha{display: none;}
-
-    .social{
-        right: 3em;
-        bottom: 1em;}
 }
 
 @media (max-width: 896px) and (max-height: 414px){
 
-    .pro{
-        left: 60%;}
+    .conteiner{
+        height: 80vh;
+    }
 
-    .desen{
-        left: 10%;}
-
-    .social svg{
-        font-size: 0.8em;}
+    .skillDesenvolvimento, .skillProgramacao{
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 736px) and (max-height: 414px){
 
-    .social{
-        right: 10%;
+    .conteiner{
+        height: 80vh;
+    }
+
+    .skillDesenvolvimento, .skillProgramacao{
+        font-size: 1.3em;
     }
 
 }
 
-@media (max-width: 746px) and (max-height: 349px){
+@media (max-width: 723px) and (max-height: 280px){
+
+    .conteiner{
+        height: 80vh;
+    }
     
-    .social{
-        right: 10%;
-        top: 85%;
-    }
-    .social svg{
-        font-size: 0.6em;
+    li {margin-top: 10%;}
+
+    .skillDesenvolvimento, .skillProgramacao{
+        font-size: 1.3em;
     }
 
 }
+
+/* MEDIDAS IPHONE 8,7,6,6S VERTICAL E HORIZONTAL */
 
 @media (max-width: 667px) and (max-height: 375px){
 
-    .pro{
-        font-size: 0.7em;
-        left: 60%;
+    .conteiner{
+        height: 80vh;
     }
-    
-    .desen{
-        left: 10%;
-    }
-    
-    .social{
-        right: 10%;
-        top: 80%;
-    }
-    .social svg{
-        font-size: 0.6em;
-    }
+
 }
