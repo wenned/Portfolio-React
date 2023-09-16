@@ -69,13 +69,18 @@ li {margin-top: 30%;}
     height: 4em;
     width: 4em;
     bottom: 5%;
-    left: 36%;
+    left: 40.5%;
 }
 
 .ws{
     font-size: 2em;
     font-weight: bold;
     font-family: 'Nova Mono', monospace;
+}
+
+@media (max-width: 1024px){
+
+    .circulo{left: 35%;}
 }
 
 @media (max-width: 800px){
