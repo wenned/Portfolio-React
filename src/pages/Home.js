@@ -7,9 +7,9 @@ function Home(){
 
     const [Valor, setValor] = useState('Click nas habilidades acima!')
 
-    document.addEventListener('click', (e) =>{
+    function Habilidades(...args){
 
-        switch(e.target.id){
+        switch(args[0]){
 
             case 'FJs':
                 setValor('JavaScript')
@@ -41,9 +41,8 @@ function Home(){
 
             default:
                 // not default
-        }
-
-    })
+    }
+}
 
     return (
     <div className={style.conteiner} id="Home">
@@ -54,7 +53,7 @@ function Home(){
 
             <h1 className={style.titulo}>Habilidades</h1>
 
-            <div className={style.skils}><FaJs id='FJs'/> <FaJava id='FaJava'/> <FaPython id='FaPython'/> <FaNodeJs id='FaNodeJs'/> <FaReact id='FaReact'/> <FaHtml5 id='FaHtml5'/> <FaCss3 id='FaCss3'/></div>
+            <div className={style.skils}><FaJs id='FJs' onClick={()=>{Habilidades('FJs')}}/> <FaJava id='FaJava' onClick={()=>{Habilidades('FaJava')}}/> <FaPython id='FaPython' onClick={()=>{Habilidades('FaPython')}}/> <FaNodeJs id='FaNodeJs' onClick={()=>{Habilidades('FaNodeJs')}}/> <FaReact id='FaReact' onClick={()=>{Habilidades('FaReact')}}/> <FaHtml5 id='FaHtml5' onClick={()=>{Habilidades('FaHtml5')}}/> <FaCss3 id='FaCss3' onClick={()=>{Habilidades('FaCss3')}}/></div>
 
             <div >
                 <div className={style.tela}>
