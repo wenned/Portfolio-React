@@ -1,7 +1,9 @@
 .Conteiner{
+    position: relative;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    column-gap: 5px;
     height: 100vh;
     width: 70%;
     justify-content: center;
@@ -10,15 +12,83 @@
 }
 
 .conteinerProjetos{
-    position: relative;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-    height: 100%;
+    margin: 5px;
+    height: 70%;
+    font-size: 2.7em;
+    border-radius: 7px;
+    background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
+    cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    .Conteiner{width: 100%;}
+.nomeProjeto{
+    position: absolute;
+    font-weight: bolder;
+    transform: rotate(90deg);
+    letter-spacing: 20px;
+}
+
+.nomeNone{
+    display: none;
+}
+
+.projetoNone{
+    display: none;
+}
+
+/* CONFIGURACAO DE ARE DE APRESENTACAO DE PROJETOS */
+
+.active{
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    animation-name: Slider;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.activeProjeto{
+    display: block;
+}
+/* ==================== */
+
+@media (max-width: 1024px){
+    .Conteiner{width: 90%;}
+}
+
+@media (max-width: 800px){
+    .Conteiner{width: 95%;}
+}
+
+@media (max-width: 769px){
+    .conteinerProjetos{height: 80%;}
+}
+
+@media (max-width: 414px) and (max-height: 896px){
+
+    .Conteiner{width: 90%;}
+}
+
+@media (max-width: 896px) and (max-height: 414px){
+
+    .conteinerProjetos{
+        font-size: 2em;
+    }
+
+    .nomeProjeto{letter-spacing: 5px;}
+}
+
+@media (max-width: 375px) and (max-height: 667px){
+
+    .conteinerProjetos{height: 95%;}
+}
+
+/* keyframe */
+
+@keyframes Slider{
+    from{ width: 0;}
+    to{width: 100%;}
 }

@@ -19,7 +19,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-image: linear-gradient(180deg, #d6e0e2, #ffff);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     z-index: 10;
@@ -35,7 +35,8 @@
     text-decoration-line: none;
     letter-spacing: 0.1rem;
 		transition: all 0.5s ease;
-		font-size: 1rem;
+		font-size: 1em;
+    letter-spacing: 7px;
     cursor: pointer;
 
 }
@@ -44,4 +45,29 @@
   color:white;
   background: #ffc70e;
   transition: all 0.5s ease;
+}
+
+@media (max-width: 600px){
+  .ethero{
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 414px){
+
+  .ethero{
+    font-size: 0.6em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+  }
+
+}
+
+@media (max-width: 320px){
+
+  .ethero{
+    font-size: 0.5em;
+    font-weight: bolder;
+    letter-spacing: normal;
+  }
 }

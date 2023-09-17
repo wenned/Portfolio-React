@@ -36,7 +36,7 @@ function NavBar(props){
 
         var elem0 = document.getElementById('Inicio');
         var elem1 = document.getElementById('troca2');
-        var elem2 = document.getElementById('Elemento3');
+        var elem2 = document.getElementById('Projetos');
         var elem3 = document.getElementById('Contat');
 
         var trocaElement1 = document.getElementById('t1')

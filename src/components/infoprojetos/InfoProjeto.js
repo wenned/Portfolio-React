@@ -13,23 +13,25 @@ function InfoProjeto(){
     return(
 
         <div className={style.Container}>
+                
+            <div className={style.imagemProjeto}><img src={portifolioImg} alt='portifolio'/></div>
 
             <div className={style.contSecundario} id='secod'>
 
-                <div className={style.imagemProjeto}><img src={portifolioImg} alt='portifolio'/></div>
-                
-                <div className={style.dadosSkil}>
-                    <h1>Tecnologias Usadas:</h1>
-                    <div className={style.skils}>
-                        <div><FaJs/>: JavaScript</div>
-                        <div><FaHtml5/>: Hypertext Markup Language</div>
-                        <div><FaCss3/>: Cascading Style Sheets</div>
-                    </div>
-                    <div className={style.texto}>
-                        <p>"Primeiro projeto web desenvolvido com JavaScript, HTML e CSS puro, desenvolvido como trabalho para a faculdade, em aperfeiçoamento das habilidades, migrei o mesmo para React."</p>
-                    </div>
-                    <div className={style.link}><FaLink onClick={Falin}/> <p onClick={Falin}>: https://portfoliowenned.netlify.app/</p></div>
+                <h1>Tecnologias Usadas:</h1>
+
+                <div className={style.skils}>
+                    <div><FaJs/>: JavaScript</div>
+                    <div><FaHtml5/>: Hypertext Markup Language</div>
+                    <div><FaCss3/>: Cascading Style Sheets</div>
                 </div>
+
+                <div className={style.texto}>
+                    <p>"Primeiro projeto web desenvolvido com JavaScript, HTML e CSS puro, desenvolvido como trabalho para a faculdade, em aperfeiçoamento das habilidades, migrei o mesmo para React."</p>
+                </div>
+
+                <div className={style.link}><FaLink onClick={Falin}/> <p onClick={Falin}>: https://portfoliowenned.netlify.app/</p></div>
+
             </div>
         </div>     
     )
