@@ -29,7 +29,6 @@ function Contato(){
                 </ol>
             </div>
 
-
             <div className={style.skillDesenvolvimento}>
                 <span className={style.titulos} >Desenvolvimento</span>
                 <ol>
