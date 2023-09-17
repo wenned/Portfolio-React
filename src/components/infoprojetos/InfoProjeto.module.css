@@ -40,7 +40,7 @@
 
 .link{
     position: relative;
-    align-items: end;
+    align-items: flex-end;
     display: flex;
 }
 
