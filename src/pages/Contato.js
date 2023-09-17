@@ -1,6 +1,6 @@
 import style from '../styles/Contato.module.css'
-import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa'
-
+import {VscGithub} from 'react-icons/vsc'
+import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 
 function Contato(){
 
@@ -42,16 +42,17 @@ function Contato(){
 
             <div className={style.redeContato} id='Contat'>
 
-                <div className={style.circulo}>
-                    <div className={style.ws}>WS</div>
+                <div className={style.conteinerCirculo}>
+                    <div className={style.circulo}>
+                        <div className={style.ws}>WS</div>
+                    </div>
                 </div>
 
                 <div className={style.iconsRede}>
-                    <FaLinkedin onClick={FaLink}/>
-                    <FaGithub onClick={FaGit}/>
-                    <FaTwitter onClick={FaTw}/>
+                    <FaLinkedinIn onClick={FaLink}/>
+                    <VscGithub onClick={FaGit}/>
+                    <FaXTwitter onClick={FaTw}/>
                 </div>
-
 
             </div>
         </div>

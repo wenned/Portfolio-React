@@ -58,6 +58,12 @@ li {margin-top: 30%;}
     border-left: 2px solid #ffff;
 }
 
+.conteinerCirculo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .circulo{
     position: relative;
@@ -69,18 +75,12 @@ li {margin-top: 30%;}
     height: 4em;
     width: 4em;
     bottom: 5%;
-    left: 40.5%;
 }
 
 .ws{
     font-size: 2em;
     font-weight: bold;
     font-family: 'Nova Mono', monospace;
-}
-
-@media (max-width: 1024px){
-
-    .circulo{left: 35%;}
 }
 
 @media (max-width: 800px){
