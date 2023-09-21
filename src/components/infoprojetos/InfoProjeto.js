@@ -1,5 +1,5 @@
 import {FaJs, FaHtml5, FaCss3, FaLink} from 'react-icons/fa'
-import style from './InfoProjeto.module.css'
+import style from './styles/InfoProjeto.module.css'
 import portifolioImg from '../../imagens/portifolio.png';
 
 
