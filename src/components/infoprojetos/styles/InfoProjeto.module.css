@@ -24,6 +24,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.7fr 1fr 0.3fr;
+    row-gap: 10px;
     font-size: 0.7em;
     margin: 10px;
 }
@@ -40,6 +41,7 @@
 
 .link{
     position: relative;
+    top: 20%;
     align-items: flex-end;
     display: flex;
 }
@@ -47,6 +49,7 @@
 @media (max-width: 1279px) {
 
     .contSecundario{
+        row-gap: 0px;
         grid-template-rows: 0.5fr 1fr 1fr 0.3fr;
     }
 
@@ -74,6 +77,11 @@
     .Container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+
+    .contSecundario{
+        row-gap: 0px;
+        grid-template-rows: 0.5fr 0.7fr 1fr 0.3fr;
     }
 
     .imagemProjeto{
