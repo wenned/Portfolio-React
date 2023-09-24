@@ -28,7 +28,7 @@ function RestAPI (){
                 <div  className={style.apresentacao}>
                     <h4>API para Sistema de Autoatendimento Eletrônico e Controle de Caixa de Restaurante/Bar.</h4>
                     <p>"
-                         API é uma solução avançada e flexível, desenvolvida em <strong>Node.js </strong>e integrada ao <strong>MongoDB</strong>, projetada para atender às necessidades específicas de restaurantes, bares e estabelecimentos similares. Esta API oferece é uma solução completa para modernização de restaurantes ou bares, aumentar a eficiência operacional e proporcionar uma experiência mais conveniente aos clientes. ."</p>
+                         API é uma solução avançada e flexível, desenvolvida em <strong>Node.JS </strong>e integrada ao <strong>MongoDB</strong>, projetada para atender às necessidades específicas de restaurantes, bares e estabelecimentos similares. Esta API oferece é uma solução completa para modernização de restaurantes ou bares, aumentar a eficiência operacional e proporcionar uma experiência mais conveniente aos clientes. ."</p>
                     
                     <h5>Recursos Principais</h5>
                     
