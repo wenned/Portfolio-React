@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 90vh;
-    width: 70%;
+    height: 800px;
+    width: 80%;
 }
 
 .imagemHome{

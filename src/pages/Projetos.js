@@ -15,6 +15,13 @@ function Projetos(){
     const [activeProjetO, setActiveProjetO] = useState('')
     const [nomeNonE, setnomeNonE] = useState('')
 
+    const [activeRestFull, setactiveRestFul] = useState('')
+
+    const [activeGerenciador, setactiveGerenciador] = useState('')
+
+    const [conteinerAtivo, setConteinerAtivo] = useState('')
+
+
     function ActiveProjeto(...args){
 
         switch(args[0]){
@@ -25,10 +32,22 @@ function Projetos(){
                     setActive('active')
                     setActiveProjeto('activeProjeto')
                     setnomeNone('nomeNone')
+
+                    setActivE('displayNone')
+                    setactiveRestFul('displayNone')
+                    setactiveGerenciador('displayNone')
+                    setConteinerAtivo('conteinerAtivo')
+                    
                 }else{
                     setActive('')
                     setActiveProjeto('')
                     setnomeNone('')
+
+                    setActivE('')
+                    setactiveRestFul('')
+                    setactiveGerenciador('')
+                    setConteinerAtivo('')
+                    
                 }
                 
                 break
@@ -39,10 +58,21 @@ function Projetos(){
                 setActivE('active')
                 setActiveProjetO('activeProjeto')
                 setnomeNonE('nomeNone')
+
+                setActive('displayNone')
+                setactiveRestFul('displayNone')
+                setactiveGerenciador('displayNone')
+                setConteinerAtivo('conteinerAtivo')
+
             }else{
                 setActivE('')
                 setActiveProjetO('')
                 setnomeNonE('')
+
+                setActive('')
+                setactiveRestFul('')
+                setactiveGerenciador('')
+                setConteinerAtivo('')
             }
             
             break
@@ -53,7 +83,7 @@ function Projetos(){
     }
 
     return (
-        <div id='Projetos' className={style.Conteiner}>
+        <div id='Projetos' className={`${style.conteinerP} ${style[conteinerAtivo]}`}>
 
             <div className={`${style.conteinerProjetos} ${style[active]}`} onClick={()=>{ActiveProjeto('Portifolio')}}>
                 <div className={`${style.nomeProjeto}  ${style[nomeNone]}`}>PORTIFOLIO</div>
@@ -65,11 +95,11 @@ function Projetos(){
                 <div className={`${style.projetoNone} ${style[activeProjetO]}`}><RestAPI/></div>
             </div>
 
-            <div className={style.conteinerProjetos}>
+            <div  className={`${style.conteinerProjetos} ${style[activeGerenciador]}`}>
                 <div className={style.nomeProjeto}>BREVE</div>
             </div>
 
-            <div className={style.conteinerProjetos}>
+            <div  className={`${style.conteinerProjetos} ${style[activeRestFull]}`}>
                 <div className={style.nomeProjeto}>BREVE</div>
             </div>
         </div>

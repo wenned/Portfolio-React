@@ -1,5 +1,5 @@
 .conteiner{
-    width: 70%;
+    width: 100%;
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -81,12 +81,6 @@ li {margin-top: 30%;}
     font-size: 2em;
     font-weight: bold;
     font-family: 'Nova Mono', monospace;
-}
-
-@media (max-width: 800px){
-
-    .conteiner{width: 100%;}
-
 }
 
 @media (max-width: 600px){

@@ -1,11 +1,11 @@
-.Conteiner{
+.conteinerP{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 5px;
     height: 100vh;
-    width: 70%;
+    width: 80%;
     justify-content: center;
     align-items: center;
 }
@@ -15,7 +15,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 80%;
     font-size: 2.7em;
     border-radius: 7px;
     background-image: linear-gradient(180deg, #ffc70e, #d6e0e2);
@@ -39,11 +39,22 @@
 
 /* CONFIGURACAO DE ARE DE APRESENTACAO DE PROJETOS */
 
+.conteinerAtivo{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    height: 100vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
 .active{
-    z-index: 1;
     width: 100%;
-    height: 80vh;
-    position: absolute;
+    height: 90%;
+    position: relative;
     animation-name: Slider;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -52,6 +63,11 @@
 .activeProjeto{
     display: block;
 }
+
+.displayNone{
+    display: none;
+}
+
 /* ==================== */
 
 @media (max-width: 1024px){
