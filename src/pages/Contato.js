@@ -48,9 +48,9 @@ function Contato(){
                 </div>
 
                 <div className={style.iconsRede}>
-                    <FaLinkedinIn onClick={FaLink}/>
-                    <VscGithub onClick={FaGit}/>
-                    <FaXTwitter onClick={FaTw}/>
+                    <FaLinkedinIn alt="Linkdin" onClick={FaLink}/>
+                    <VscGithub alt="GitHub" onClick={FaGit}/>
+                    <FaXTwitter  alt="Twitter" onClick={FaTw}/>
                 </div>
 
             </div>
